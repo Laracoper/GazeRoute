@@ -40,7 +40,7 @@
 
 ```bash
 # 1. Клонирование и переход в директорию
-git clone git@github.com:Laracoper/GazeRoute.git && cd GazeRoute
+git clone https://github.com/Laracoper/GazeRoute.git && cd GazeRoute
 
 # 2. Установка зависимостей (PHP & JS)
 docker run --rm -v $(pwd):/var/www/html -w /var/www/html laravelsail/php82-composer:latest composer install
